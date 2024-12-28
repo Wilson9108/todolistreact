@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+body{
+    background-color: #12063b;
+    color: white;
+}
+.form-box{
+    width:100vw;
+    height: 100vh;
+    text-align: center;
+    
+
+}
+.input-box{
+    width:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height:50px;
+    width: 100%;
+    padding:0px 8px;
+    border-radius:8px 0px 8px 0px;
+    outline:none;
+    border: none;
+    background-color: rgba(237,237,237);
+    margin:0px 0px 0px 20px;
+   
+}
+textarea{
+    height: 100px;
+    width:100%;
+    padding:5px 8px ;
+    border-radius: 8px 0px 8px 0px;
+    outline:none;
+    border:none;
+    /* background-color: rgba(32, 32, 32, 0.64); */
+    /* color:white; */
+    margin:10px 0px 0px 20px;
+    position: relative;
+
+}
+/* input::placeholder,textarea::placeholder{
+    color:#fff;
+} */
+.inputt-group{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.add-task-btn{
+    padding:8px 10px;
+    width:20%;
+    border:none;
+    outline:none;
+    background-color: gold;
+    border-radius: 0px 8px 8px 0px;;
+    font-weight: 700;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 1px 5px 15px rgba(130, 128, 114, 0.712);
+}
+
+.view-task-box{
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    padding:0px 10px;
+    text-align: center;
+}
+.view-tasks-btn,.pending-btn,.completed-btn{
+    padding:8px 10px;
+    border:1px solid gold;
+    outline:none;
+    background-color: #424f5f;
+    border-radius: 0px 8px 8px 0px;
+    font-weight: 700;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 20px;
+    color:white;
+    box-shadow: 1px 5px 15px rgba(130, 128, 114, 0.712);
+}
+.completed-btn{
+    background-color: green;
+}
+
+.pending-btn{
+    background-color:bisque;
+    color:rgb(162, 116, 116);
+}
+.view-tasks-btn:hover ,.pending-btn:hover,.completed-btn:hover,.add-task-btn:hover,.hide-tasks-btn:hover{
+    box-shadow: 1px 5px 25px rgb(202, 181, 23);
+    border:3px solid gold;
+    color:#fff;
+
+}
+.all-accordions{
+    width:100%;
+    /* display: flex;
+    position: relative; */
+}
+.nav{
+    display:flex;
+    justify-content:center;
+}
+.accordion-container{
+    width:100%;
+    margin: 10px;
+    padding:10px 10px;
+    display: none;
+    justify-content: center;
+    word-wrap:break-word;
+    text-transform: uppercase;
+}
+ .accordion{
+    width:550px;
+    box-shadow: 1px 5px 15px rgba(130, 128, 114, 0.959);
+}
+.completed-data-container{
+    width:100%;
+    padding:10px 10px;
+    display: none;
+    justify-content:center;
+    word-wrap:break-word;
+    text-transform: uppercase;
+
+}
+/* .completed-data-container>.accordion{
+    width:550px;
+} */
+
+.pending-data-container {
+    width:100%;
+    margin:10px 0px 0px 20px;
+    padding:10px 10px;
+    display: none;
+    justify-content:center;
+    word-wrap:break-word;
+    text-transform: uppercase;
+}
+/* .pending-data-container>.accordion{
+    width:550px;
+} */
+
+.accordion-button{
+    background-color: #fff3cd;
+}
+.edit-btn,.delete-btn,.complete-btn,.update-btn,.hide-tasks-btn{
+    padding:8px 10px;
+    /* width:20%; */
+    border:none;
+    outline:none;
+    background-color: green;
+    border-radius: 0px 8px 8px 0px;
+    font-weight: 700;
+    margin: 20px;
+    color:white;
+    box-shadow: 1px 5px 15px rgb(130, 114, 114);
+}
+.hide-tasks-btn{
+    background-color: rgb(185, 202, 217);
+    color:#000;
+}
+
+.update-Description{
+    height:60px;
+    width: 95%;
+    padding:0px 8px;
+    border-radius:8px 0px 8px 0px;
+    outline:none;
+    border: none;
+    background-color: rgba(237,237,237);
+    margin:0px 0px 0px 0px;
+    /* display:none; */
+
+}
