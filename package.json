@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +35,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7"
+>>>>>>> e1e08294fa7fbc325bd536a1886b9c7cc6c33854
   }
 }
